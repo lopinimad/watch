@@ -1,0 +1,463 @@
+{
+    "about": {
+        "description": "P-Stream är en vidareutveckling (”fork”) av Movie-Web som är garanterad att fortsätta fungera även efter att movie-web.app stängts ner. P-Stream körs på en privat, egenhostad VPS. Jag driver den här sidan med förlust; det finns väldigt lite reklam eftersom jag tror på fri tillgång till media.",
+        "faqTitle": "Vanliga frågor",
+        "q1": {
+            "body": "P-Stream hostar ingen innehåll. När du klickar på något att titta på, söks internet efter det valda mediet (På laddningsskärmen och i fliken 'Videokällor' kan du se vilken källa du använder). Media laddas aldrig upp av P-Stream, allt sker genom sökmotorn.",
+            "title": "Var kommer innehållet ifrån?",
+            "section": "general"
+        },
+        "q2": {
+            "body": "Det går inte att begära en show eller film, P-Stream hanterar inte något innehåll. Allt innehåll visas genom källor på internet.",
+            "title": "Var kan jag begära en serie eller film?",
+            "section": "sök"
+        },
+        "q3": {
+            "body": "Våra sökresultat drivs av The Movie Database (TMDB) och visas oavsett om våra källor faktiskt har innehållet.",
+            "title": "Sökresultaten visar showen eller filmen, varför kan jag inte spela upp den?",
+            "section": "sök"
+        },
+        "title": "Om P-Stream",
+        "help": "Hittar du inget svar? <0>Få support här.</0>",
+        "q6": {
+            "body": "Inte än, men du kan installera den som en PWA (Progressive Web App). På iOS, gå in på Safari → Dela → Lägg till på startskärmen. På Android, gå in på Chrome → 3 punkter → Lägg till på startskärmen. En experimentell APK finns tillgänglig via vår Discord, men den rekommenderas inte.",
+            "title": "Finns det en P-stream-app?",
+            "section": "general"
+        },
+        "sections": {
+            "search": "Sök och innehållstillgänglighet",
+            "general": "General",
+            "playback": "Uppspelningsproblem",
+            "connections": "Anslutningar",
+            "language": "Språk- och textinställningar"
+        },
+        "q13": {
+            "body": "Prova att byta källa. Kvaliteten varierar beroende på leverantör; FED API erbjuder ofta fler alternativ.",
+            "title": "Videokvaliteten är inte vad jag förväntat.",
+            "section": "uppspelning"
+        },
+        "q15": {
+            "body": "Kolla så att ljudet inte är avstängt på din enhet och testa att byta källa. Ljudproblem kan bero på den specifika källan.",
+            "title": "Varför finns det inget ljud?",
+            "section": "uppspelning"
+        },
+        "q14": {
+            "body": "Om 4K inte visas är det troligtvis inte tillgängligt från den källan.",
+            "title": "4K är inte tillgängligt.",
+            "section": "uppspelning"
+        },
+        "searchPlaceholder": "Sök FAQ...",
+        "q4": {
+            "title": "Vad gäller min data och sådant?",
+            "body": "All data synkroniseras med communityns backend, vem som helst kan också använda detta.",
+            "section": "general"
+        },
+        "q5": {
+            "title": "Hur kan jag få veta mer?",
+            "body": "P-Stream har en Discord-server som kan hittas högst upp på sidan!",
+            "section": "general"
+        },
+        "q7": {
+            "title": "Hur gör jag ett konto?",
+            "body": "Tryck på \"Synkronisera till molnet\" i rullgardinsmenyn eller gå till inställningar för att skapa och synkronisera ett communitykonto.",
+            "section": "general"
+        },
+        "q9": {
+            "title": "Detta media saknas / Kan jag begära media?",
+            "section": "sök"
+        },
+        "q10": {
+            "title": "Jag kan inte hitta filmen/serien jag söker!",
+            "body": "TMDB driver vår sökning. Testa att trycka på 🔎‐ikonen för avancerade sökalternativ om resultaten inte är korrekta.",
+            "section": "sök"
+        },
+        "q11": {
+            "title": "Varför ser jag en svart skärm?",
+            "body": "Förmodligen en korrupt eller trasig video‐fil. Prova att byta källa.",
+            "section": "uppspelning"
+        },
+        "q12": {
+            "title": "Avsnittet jag tittar på stämmer inte.",
+            "body": "Byt till en annan källa. Vi kontrollerar inte innehållet eller om avsnitten är korrekta.",
+            "section": "uppspelning"
+        }
+    },
+    "actions": {
+        "copied": "Kopierad",
+        "copy": "Kopiera"
+    },
+    "auth": {
+        "createAccount": "Har du inget konto ännu? <0>Skapa ett konto.</0>",
+        "deviceNameLabel": "Enhetsnamn",
+        "deviceNamePlaceholder": "Min telefon",
+        "generate": {
+            "description": "Ditt lösenord fungerar som ditt användarnamn och lösenord. Se till att hålla det säkert eftersom du behöver ange det för att logga in på ditt konto",
+            "next": "Jag har sparat mitt lösenord",
+            "title": "Ditt lösenord"
+        },
+        "hasAccount": "Har redan ett konto? <0>Logga in här.</0>",
+        "login": {
+            "description": "Ange ditt lösenord för att logga in på ditt konto",
+            "deviceLengthError": "Ange ett enhetsnamn",
+            "passphraseLabel": "12-ords lösenord",
+            "passphrasePlaceholder": "Lösenord",
+            "submit": "Logga in",
+            "title": "Logga in på ditt konto",
+            "validationError": "Felaktigt eller ofullständigt lösenord"
+        },
+        "register": {
+            "information": {
+                "color1": "Profilfärg ett",
+                "color2": "Profilfärg två",
+                "header": "Ange ett namn för din enhet och välj färger samt ett användarikon efter eget val",
+                "icon": "Användarikon",
+                "next": "Nästa",
+                "title": "Kontoinformation"
+            }
+        },
+        "trust": {
+            "failed": {
+                "text": "Har du konfigurerat den korrekt?",
+                "title": "Kunde inte nå servern"
+            },
+            "host": "Du ansluter till <0>{{hostname}}</0> - bekräfta att du litar på den innan du skapar ett konto",
+            "no": "Gå tillbaka",
+            "title": "Litar du på denna server?",
+            "yes": "Jag litar på denna server"
+        },
+        "verify": {
+            "description": "Ange ditt lösenord igen för att bekräfta att du har sparat det och skapa ditt konto",
+            "invalidData": "Data är inte giltig",
+            "noMatch": "Lösenorden matchar inte",
+            "passphraseLabel": "Ditt 12-ords lösenord",
+            "recaptchaFailed": "ReCaptcha validering misslyckades",
+            "register": "Skapa konto",
+            "title": "Bekräfta ditt lösenord"
+        }
+    },
+    "errors": {
+        "badge": "Något gick fel",
+        "details": "Felinformation",
+        "reloadPage": "Ladda om sidan",
+        "showError": "Visa felinformation",
+        "title": "Vi stötte på ett fel!"
+    },
+    "footer": {
+        "legal": {
+            "disclaimer": "Friskriver sig från ansvar",
+            "disclaimerText": "P-Stream hostar inga filer utan länkar endast till filer från tredje part. Eventuella juridiska frågor bör tas upp med källorna till materialet. P-Stream varken ansvarar eller styr över de mediefiler som visas."
+        },
+        "links": {
+            "discord": "Discord",
+            "dmca": "DMCA",
+            "github": "GitHub"
+        },
+        "tagline": "Titta på dina favoritprogram och filmer helt gratis."
+    },
+    "global": {
+        "name": "P-Stream",
+        "pages": {
+            "about": "Om oss",
+            "dmca": "DMCA",
+            "login": "Logga in",
+            "pagetitle": "{{title}} - P-Stream",
+            "register": "Registrera",
+            "settings": "Inställningar"
+        }
+    },
+    "home": {
+        "bookmarks": {
+            "sectionTitle": "Bokmärken"
+        },
+        "continueWatching": {
+            "sectionTitle": "Fortsätt titta"
+        },
+        "mediaList": {
+            "stopEditing": "Sluta redigera"
+        },
+        "search": {
+            "allResults": "Det är allt vi har!",
+            "failed": "Misslyckades med att hitta media, försök igen!",
+            "loading": "Laddar...",
+            "noResults": "Vi kunde inte hitta någonting!",
+            "placeholder": {
+                "default": "Vad vill du titta på?"
+            },
+            "sectionTitle": "Sökresultat"
+        },
+        "titles": {
+            "day": {
+                "default": "Vad vill du titta på i eftermiddag?"
+            },
+            "morning": {
+                "default": "Vad vill du titta på den här morgonen?",
+                "extra": [
+                    "Jag hör att Before Sunrise är bra"
+                ]
+            },
+            "night": {
+                "default": "Vad vill du titta på ikväll?",
+                "extra": [
+                    "Trött? Jag hör att The Exorcist är bra."
+                ]
+            }
+        }
+    },
+    "media": {
+        "episodeDisplay": "S{{season}} E{{episode}}",
+        "types": {
+            "movie": "Film",
+            "show": "Serie"
+        }
+    },
+    "navigation": {
+        "banner": {
+            "offline": "Kontrollera din internetanslutning"
+        },
+        "menu": {
+            "about": "Om oss",
+            "logout": "Logga ut",
+            "register": "Synkronisera till molnet",
+            "settings": "Inställningar",
+            "support": "Support"
+        }
+    },
+    "notFound": {
+        "badge": "Ej hittad",
+        "goHome": "Tillbaka till startsidan",
+        "message": "Vi letade överallt: under soptunnorna, i garderoben, bakom proxy men kunde slutligen inte hitta sidan du letar efter.",
+        "title": "Kunde inte hitta den sidan"
+    },
+    "overlays": {
+        "close": "Stäng"
+    },
+    "player": {
+        "back": {
+            "default": "Tillbaka till startsidan",
+            "short": "Tillbaka"
+        },
+        "casting": {
+            "enabled": "Castar till enheten..."
+        },
+        "menus": {
+            "downloads": {
+                "disclaimer": "Nedladdningar görs direkt från leverantören. P-Stream har ingen kontroll över hur nedladdningarna tillhandahålls.",
+                "downloadVideo": "Ladda ner video",
+                "onAndroid": {
+                    "1": "För att ladda ner på Android, klicka på nedladdningsknappen och på den nya sidan <bold>trycker och håller</bold> på videon, välj sedan <bold>spara</bold>.",
+                    "shortTitle": "Ladda ner / Android",
+                    "title": "Laddar ner på Android"
+                },
+                "onIos": {
+                    "1": "För att ladda ner på iOS, klicka på nedladdningsknappen och på den nya sidan klickar du på <bold><ios_share /></bold>, sedan <bold>Spara i filer <ios_files /></bold>.",
+                    "shortTitle": "Ladda ner / iOS",
+                    "title": "Laddar ner på iOS"
+                },
+                "onPc": {
+                    "1": "På PC, klicka på nedladdningsknappen och på den nya sidan högerklickar du sedan på videon och väljer <bold>Spara video som</bold>",
+                    "shortTitle": "Ladda ner / PC",
+                    "title": "Laddar ner på PC"
+                },
+                "title": "Ladda ner"
+            },
+            "episodes": {
+                "button": "Avsnitt",
+                "emptyState": "Det finns inga avsnitt i denna säsong, kom tillbaka senare!",
+                "episodeBadge": "E{{episode}}",
+                "loadingError": "Fel vid laddning av säsong",
+                "loadingList": "Laddar...",
+                "loadingTitle": "Laddar..."
+            },
+            "playback": {
+                "speedLabel": "Uppspelningshastighet",
+                "title": "Uppspelningsinställningar"
+            },
+            "quality": {
+                "automaticLabel": "Automatisk kvalitet",
+                "hint": "Du kan prova att <0>byta källa</0> för att få olika kvalitetsoptioner.",
+                "iosNoQuality": "På grund av Apple-definierade begränsningar är kvalitetsval inte tillgängligt på iOS för denna källa. Du kan prova att <0>byta till en annan källa</0> för att få olika kvalitetsoptioner.",
+                "title": "Kvalitet"
+            },
+            "settings": {
+                "downloadItem": "Ladda ner",
+                "experienceSection": "Visningsupplevelse",
+                "playbackItem": "Uppspelningsinställningar",
+                "qualityItem": "Kvalitet",
+                "sourceItem": "Videokällor",
+                "videoSection": "Videoinställningar"
+            },
+            "sources": {
+                "failed": {
+                    "text": "Det uppstod ett fel när vi försökte hitta några videor, försök med en annan källa.",
+                    "title": "Misslyckades med att skrapa"
+                },
+                "noEmbeds": {
+                    "text": "Vi kunde inte hitta några inbäddningar, försök med en annan källa.",
+                    "title": "Inga inbäddningar hittade"
+                },
+                "noStream": {
+                    "text": "Den här källan har ingen ström för denna film eller serie.",
+                    "title": "Ingen ström"
+                },
+                "title": "Källor",
+                "unknownOption": "Okänd"
+            }
+        },
+        "metadata": {
+            "failed": {
+                "badge": "Misslyckades",
+                "homeButton": "Till startsidan",
+                "text": "Kunde inte ladda medias metadata från TMDB. Kontrollera om TMDB är nere eller blockerat på din internetanslutning.",
+                "title": "Misslyckades att ladda metadata"
+            },
+            "notFound": {
+                "badge": "Ej hittad",
+                "homeButton": "Tillbaka till startsidan",
+                "text": "Vi kunde inte hitta den media du begärde. Antingen har den tagits bort eller så har du manipulerat URL:en.",
+                "title": "Kunde inte hitta den media."
+            }
+        },
+        "nextEpisode": {
+            "next": "Nästa avsnitt"
+        },
+        "playbackError": {
+            "badge": "Uppspelningsfel",
+            "errors": {
+                "errorAborted": "Hämtningen av media avbröts på användarens begäran.",
+                "errorDecode": "Trots att det tidigare bedömts som användbart uppstod ett fel vid försök att avkoda mediaresursen, vilket resulterade i ett fel.",
+                "errorGenericMedia": "Okänt mediafel inträffade.",
+                "errorNetwork": "Någon form av nätverksfel inträffade vilket förhindrade att media framgångsrikt hämtades, trots att det tidigare var tillgängligt.",
+                "errorNotSupported": "Media- eller mediaproviderobjektet stöds inte."
+            },
+            "homeButton": "Till startsidan",
+            "text": "Det uppstod ett fel när vi försökte spela upp media. Försök igen.",
+            "title": "Misslyckades spela upp video!"
+        },
+        "scraping": {
+            "items": {
+                "failure": "Fel inträffade",
+                "notFound": "Har inte videon",
+                "pending": "Söker efter videor..."
+            },
+            "notFound": {
+                "badge": "Ej hittad",
+                "detailsButton": "Visa detaljer",
+                "homeButton": "Till startsidan",
+                "text": "Vi har sökt genom våra leverantörer och kan inte hitta den media du letar efter! Vi hostar inte media och har ingen kontroll över tillgängligheten. Klicka på 'Visa detaljer' nedan för mer information.",
+                "title": "Vi kunde inte hitta det"
+            }
+        },
+        "time": {
+            "regular": "{{timeWatched}} / {{duration}}",
+            "remaining": "{{timeLeft}} kvar • Slutar kl {{timeFinished, datetime}}",
+            "shortRegular": "{{timeWatched}}",
+            "shortRemaining": "-{{timeLeft}}"
+        }
+    },
+    "screens": {
+        "dmca": {
+            "title": "DMCA"
+        },
+        "loadingApp": "Laddar applikationen",
+        "loadingUser": "Laddar din profil",
+        "loadingUserError": {
+            "logout": "Logga ut",
+            "reset": "Återställ anpassad server",
+            "text": "Misslyckades att ladda din profil",
+            "textWithReset": "Misslyckades att ladda din profil från din anpassade server, vill du återställa till standardservern?"
+        },
+        "migration": {
+            "failed": "Misslyckades att migrera dina data.",
+            "inProgress": "Vänligen vänta, vi migrerar dina data. Detta borde inte ta lång tid."
+        }
+    },
+    "settings": {
+        "account": {
+            "accountDetails": {
+                "deviceNameLabel": "Enhetens namn",
+                "deviceNamePlaceholder": "Min telefon",
+                "editProfile": "Redigera",
+                "logoutButton": "Logga ut"
+            },
+            "actions": {
+                "delete": {
+                    "button": "Ta bort konto",
+                    "confirmButton": "Ta bort konto",
+                    "confirmDescription": "Är du säker på att du vill ta bort ditt konto? All din data kommer att gå förlorad!",
+                    "confirmTitle": "Är du säker?",
+                    "text": "Denna åtgärd är oåterkallelig. All data kommer att raderas och kan inte återställas.",
+                    "title": "Ta bort konto"
+                },
+                "title": "Åtgärder",
+                "logoutAllDevices": {
+                    "title": "Avsluta alla sessioner",
+                    "text": "Detta loggar ut dig från alla enheter kopplade till ditt konto.",
+                    "button": "Logga ut från alla enheter"
+                }
+            },
+            "devices": {
+                "deviceNameLabel": "Enhetens namn",
+                "failed": "Misslyckades att ladda sessioner",
+                "removeDevice": "Ta bort",
+                "title": "Enheter"
+            },
+            "profile": {
+                "finish": "Slutför redigering",
+                "firstColor": "Profilfärg ett",
+                "secondColor": "Profilfärg två",
+                "title": "Redigera profilbild",
+                "userIcon": "Användarikon"
+            },
+            "register": {
+                "cta": "Kom igång",
+                "text": "Dela din tittarframsteg mellan enheter och håll dem synkroniserade.",
+                "title": "Synkronisera till molnet"
+            },
+            "title": "Konto"
+        },
+        "appearance": {
+            "activeTheme": "Aktiv",
+            "themes": {
+                "blue": "Blå",
+                "default": "Standard",
+                "gray": "Grå",
+                "red": "Röd",
+                "teal": "Blågrön"
+            },
+            "title": "Utseende"
+        },
+        "connections": {
+            "server": {
+                "description": "Om du vill ansluta till en anpassad bakänd för att lagra dina data, aktivera detta och ange URL:en.",
+                "label": "Anpassad server",
+                "urlLabel": "Egen server URL"
+            },
+            "title": "Anslutningar",
+            "workers": {
+                "addButton": "Lägg till ny arbetare",
+                "description": "För att få applikationen att fungera skickas all trafik genom proxys. Aktivera detta om du vill använda egna arbetare.",
+                "emptyState": "Inga arbetare ännu, lägg till en nedan",
+                "label": "Använd egna proxyarbetare",
+                "urlLabel": "Arbetar-URL:er",
+                "urlPlaceholder": "https://"
+            }
+        },
+        "reset": "Återställ",
+        "save": "Spara",
+        "sidebar": {
+            "info": {
+                "appVersion": "Appversion",
+                "backendUrl": "Bakänd-URL",
+                "backendVersion": "Bakändversion",
+                "hostname": "Värdnamn",
+                "insecure": "Osäker",
+                "notLoggedIn": "Du är inte inloggad",
+                "secure": "Säker",
+                "title": "Appinformation",
+                "unknownVersion": "Okänd",
+                "userId": "Användar-ID"
+            }
+        },
+        "unsaved": "Du har osparade ändringar"
+    }
+}

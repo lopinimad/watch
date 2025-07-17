@@ -1,0 +1,638 @@
+{
+    "about": {
+        "description": "P-Stream jest aplikacją internetową, która wyszukuje w internecie strumienia. Zespół dąży do minimalistycznego podejścia do konsumpcji treści.",
+        "faqTitle": "Częste pytania",
+        "q1": {
+            "body": "P-Stream nie udostępnia żadnych treści. Kiedy klikniesz na coś co chcesz obejrzeć, internet zostanie przeszukany pod kątem wybranych multimediów (na ekranie ładowania oraz w zakładce „źródła wideo” możesz zobaczyć, z jakiego źródła korzystasz). Media nigdy nie są przesyłane przez P-Stream, wszystko odbywa się za pośrednictwem tego mechanizmu wyszukiwania.",
+            "title": "Skąd pochodzą treści?"
+        },
+        "q2": {
+            "body": "Nie można złożyć wniosku o serialu ani filmu, P-Stream nie zarządza żadną treścią. Wszystkie treści są przeglądane za pośrednictwem źródeł w Internecie.",
+            "title": "Gdzie mogę złożyć wniosek o seriale lub filmie?"
+        },
+        "q3": {
+            "body": "Nasze wyniki wyszukiwania pochodzą z TMDB i są wyświetlane niezależnie od tego, czy nasze źródła faktycznie posiadają daną treść.",
+            "title": "W wyniku wyszukiwania wyświetlany jest serial lub film. Dlaczego nie mogę go odtworzyć?"
+        },
+        "title": "O P-Stream",
+        "q5": {
+            "title": "Jak mogę dowiedzieć się więcej?",
+            "body": "P-Stream ma swój serwer Discord, który znajdziesz w nagłówku strony!"
+        },
+        "q4": {
+            "title": "Co z moimi danymi?"
+        }
+    },
+    "actions": {
+        "copied": "Skopiowano",
+        "copy": "Kopiuj"
+    },
+    "auth": {
+        "createAccount": "Nie masz jeszcze konta? <0>Utwórz konto.</0>",
+        "deviceNameLabel": "Nazwa urządzenia",
+        "deviceNamePlaceholder": "Telefon osobisty",
+        "generate": {
+            "description": "Twoja fraza hasła działa jak nazwa użytkownika i hasło. Pamiętaj aby zachować go w bezpiecznym miejscu, ponieważ będziesz musiał go wprowadzić aby zalogować się na swoje konto",
+            "next": "Zapisałem frazę hasła",
+            "passphraseFrameLabel": "Fraza hasła",
+            "title": "Twoja fraza hasła"
+        },
+        "hasAccount": "Masz już konto? <0>Zaloguj się tutaj.</0>",
+        "login": {
+            "description": "Proszę wpisać frazę hasła, aby zalogować się na swoje konto",
+            "deviceLengthError": "Proszę wpisać nazwę urządzenia",
+            "passphraseLabel": "12-wyrazowa fraza hasła",
+            "passphrasePlaceholder": "Fraza hasła",
+            "submit": "Zaloguj się",
+            "title": "Zaloguj się na swoje konto",
+            "validationError": "Nieprawidłowe lub niedokończone fraza hasła"
+        },
+        "register": {
+            "information": {
+                "color1": "Kolor profilu jeden",
+                "color2": "Kolor profilu dwa",
+                "header": "Wpisz nazwę swojego urządzenia i wybierz kolory oraz ikonę użytkownika",
+                "icon": "Ikona użytkownika",
+                "next": "Dalej",
+                "title": "Informacje o koncie"
+            }
+        },
+        "trust": {
+            "failed": {
+                "text": "Skonfigurowałeś to poprawnie?",
+                "title": "Nie udało się połączyć z serwerem"
+            },
+            "host": "Łączysz się z <0>{{hostname}}</0> - przed utworzeniem konta potwierdź że ufasz temu serwerowi",
+            "no": "Wstecz",
+            "noHost": "Serwer nie został skonfigurowany, więc nie można utworzyć konta",
+            "noHostTitle": "Serwer nie skonfigurowany!",
+            "title": "Ufasz temu serwerowi?",
+            "yes": "Ufam temu serwerowi"
+        },
+        "verify": {
+            "description": "Wprowadź swoją frazę hasła, aby potwierdzić jego zapisanie i utworzyć konto",
+            "invalidData": "Dane są nieprawidłowe",
+            "noMatch": "Fraza hasła nie pasuje",
+            "passphraseLabel": "Twoja 12-wyrazowa fraza hasła",
+            "recaptchaFailed": "Weryfikacja ReCaptcha nie powiodła się",
+            "register": "Utwórz konto",
+            "title": "Potwierdź swoją frazę hasła"
+        }
+    },
+    "errors": {
+        "badge": "Zepsuło się",
+        "details": "Szczegóły błędu",
+        "reloadPage": "Odśwież stronę",
+        "showError": "Pokaż szczegóły błędu",
+        "title": "Napotkaliśmy błąd!"
+    },
+    "footer": {
+        "legal": {
+            "disclaimer": "Zastrzeżenie",
+            "disclaimerText": "P-Stream nie przechowuje żadnych plików, zawiera jedynie łącza do usług stron trzecich. Kwestie prawne należy konsultować z hostami plików i dostawcami. P-Stream nie ponosi odpowiedzialności za jakiekolwiek pliki multimedialne prezentowane przez dostawców wideo."
+        },
+        "links": {
+            "discord": "Discord",
+            "dmca": "DMCA",
+            "github": "GitHub",
+            "twitter": "Twitter"
+        },
+        "tagline": "Oglądaj swoje ulubione seriale i filmy za pomocą tej aplikacji streamingowej typu open source."
+    },
+    "global": {
+        "name": "P-Stream",
+        "pages": {
+            "about": "Informacje",
+            "dmca": "DMCA",
+            "login": "Zaloguj sie",
+            "onboarding": "Konfiguracja",
+            "pagetitle": "{{title}} - P-Stream",
+            "register": "Zarejestruj się",
+            "settings": "Ustawienia",
+            "discover": "Odkrywaj",
+            "support": "Wsparcie",
+            "migration": "Migruj konto"
+        }
+    },
+    "home": {
+        "bookmarks": {
+            "sectionTitle": "Zakładki"
+        },
+        "continueWatching": {
+            "sectionTitle": "Kontynuuj oglądanie"
+        },
+        "mediaList": {
+            "stopEditing": "Przestań edytować"
+        },
+        "search": {
+            "allResults": "To wszystko co mamy!",
+            "failed": "Nie udało się znaleźć mediów, Spróbuj ponownie!",
+            "loading": "Wczytywanie...",
+            "noResults": "Nie mogliśmy niczego znaleźć!",
+            "placeholder": {
+                "default": "Co chciałbyś obejrzeć?",
+                "extra": [
+                    "Co chcesz odkryć?",
+                    "Co znajduje się na Twojej liście do obejrzenia?",
+                    "Jaki jest twój ulubiony film?",
+                    "P-Stream to najlepsza strona!",
+                    "Co chcesz dzisiaj zobaczyć?",
+                    "Jak minął Ci dzień?",
+                    null,
+                    "Czy P-Stream nie jest najlepszy?",
+                    ">ᴗ<"
+                ]
+            },
+            "sectionTitle": "Wyniki wyszukiwania",
+            "empty": {
+                "default": "Cześć, znajdź coś do obejrzenia!",
+                "extra": [
+                    "Nic tu nie ma :(",
+                    "Tak pusto...",
+                    "Taka pustka.",
+                    "Cześć, nowy użytkowniku! :3"
+                ]
+            },
+            "discoverMore": "Odkrywaj więcej",
+            "discover": "Odkrywaj"
+        },
+        "titles": {
+            "day": {
+                "default": "Co chciałbyś obejrzeć dziś po południu?",
+                "extra": [
+                    "Masz ochotę na przygodę? Park Jurajski może być idealnym wyborem."
+                ]
+            },
+            "morning": {
+                "default": "Co chciałbyś obejrzeć dziś rano?",
+                "extra": [
+                    "Słyszałem że „Przed wschodem słońca” jest dobre"
+                ]
+            },
+            "night": {
+                "default": "Co chciałbyś obejrzeć dziś wieczorem?",
+                "extra": [
+                    "Zmęczony? Słyszałem że „Egzorcysta” jest dobry."
+                ]
+            },
+            "69": {
+                "default": "Masz ochotę na coś pikantnego?",
+                "extra": [
+                    "Wesołego dnia 69!"
+                ]
+            },
+            "420": {
+                "extra": [
+                    "Wesołego 420  🥳!"
+                ],
+                "default": "Dziś jest 20 kwietnia, co chciałbyś obejrzeć?"
+            }
+        }
+    },
+    "media": {
+        "episodeDisplay": "S{{season}} O{{episode}}",
+        "types": {
+            "movie": "Film",
+            "show": "Serial"
+        },
+        "unreleased": "Niewydane"
+    },
+    "navigation": {
+        "banner": {
+            "offline": "Sprawdź swoje połączenie sieciowe"
+        },
+        "menu": {
+            "about": "O nas",
+            "logout": "Wyloguj się",
+            "register": "Synchronizuj z chmurą",
+            "settings": "Ustawienia",
+            "support": "Wsparcie"
+        }
+    },
+    "notFound": {
+        "badge": "Nie znaleziono",
+        "goHome": "Wróć na stronę główną",
+        "message": "Szukaliśmy wszędzie: w koszu, w szafie, a nawet w piwnicy, ale nie byliśmy w stanie znaleźć strony której szukasz.",
+        "title": "Nie można znaleźć tej strony"
+    },
+    "onboarding": {
+        "defaultConfirm": {
+            "cancel": "Anuluj",
+            "confirm": "Użyj domyślnej konfiguracji",
+            "description": "Domyślna konfiguracja nie ma najlepszych strumieni i może być strasznie powolna.",
+            "title": "Jesteś pewien?"
+        },
+        "extension": {
+            "back": "Wstecz",
+            "explainer": "Korzystając z rozszerzenia przeglądarki, możesz uzyskać najlepsze strumienie. Wystarczy prosta instalacja.",
+            "explainerIos": "Niestety, rozszerzenie przeglądarki nie jest obsługiwane w systemie iOS, naciśnij <bold>Wstecz</bold>, aby wybrać inną opcję.",
+            "extensionHelp": "Jeżeli zainstalowałeś rozszerzenie, ale nie zostało ono wykryte, <bold>otwórz rozszerzenie za pomocą menu rozszerzeń przeglądarki</bold> i postępuj zgodnie z instrukcjami wyświetlanymi na ekranie.",
+            "linkChrome": "Zainstaluj rozszerzenie na Chrome",
+            "linkFirefox": "Zainstaluj rozszerzenie na Firefox",
+            "notDetecting": "Zainstalowano w Chrome, ale strona go nie wykrywa? Spróbuj odświeżyć stronę!",
+            "notDetectingAction": "Odśwież stronę",
+            "status": {
+                "disallowed": "Rozszerzenie nie jest włączone dla tej strony",
+                "disallowedAction": "Włącz rozszerzenie",
+                "failed": "Nie udało się uzyskać statusu",
+                "loading": "Oczekiwanie na instalację rozszerzenia",
+                "outdated": "Za stara wersja rozszerzenia",
+                "success": "Rozszerzenie działa tak jak powinno!"
+            },
+            "submit": "Kontynuuj",
+            "title": "Zacznijmy od rozszerzenia"
+        },
+        "proxy": {
+            "back": "Wstecz",
+            "explainer": "Za pomocą metody proxy można uzyskać strumienie o doskonałej jakości, tworząc samoobsługowy serwer proxy.",
+            "input": {
+                "errorConnection": "Nie można połączyć się z serwerem proxy",
+                "errorInvalidUrl": "Nieprawidłowy adres URL",
+                "errorNotProxy": "Spodziewano proxy, ale otrzymano stronę internetową",
+                "label": "Adres URL serwera proxy",
+                "placeholder": "https://"
+            },
+            "link": "Dowiedz się, jak utworzyć proxy",
+            "submit": "Prześlij proxy",
+            "title": "Stwórzmy nowe proxy"
+        },
+        "start": {
+            "explainer": "Aby uzyskać najlepsze transmisje strumieniowe, będziesz musiał wybrać metodę strumieniowania której chcesz użyć.",
+            "options": {
+                "default": {
+                    "text": "Nie chcę dobrej jakości strumieni, <0 /> <1>użyj domyślnej konfiguracji</1>"
+                },
+                "extension": {
+                    "action": "Zainstaluj rozszerzenie",
+                    "description": "Zainstaluj rozszerzenie przeglądarki i uzyskaj dostęp do najlepszych źródeł.",
+                    "quality": "Najlepsza jakość",
+                    "title": "Rozszerzenie przeglądarki"
+                },
+                "proxy": {
+                    "action": "Skonfiguruj serwer proxy",
+                    "description": "Skonfiguruj proxy w 5 minut i uzyskaj dostęp do świetnych źródeł.",
+                    "quality": "Dobra jakość",
+                    "title": "Niestandardowy serwer proxy"
+                }
+            },
+            "title": "Przejdźmy do konfiguracji z P-Stream"
+        }
+    },
+    "overlays": {
+        "close": "Zamknij"
+    },
+    "player": {
+        "back": {
+            "default": "Wróć na stronę główną",
+            "short": "Wróć"
+        },
+        "casting": {
+            "enabled": "Przesyłam na urządzenie..."
+        },
+        "menus": {
+            "downloads": {
+                "copyHlsPlaylist": "Kopiuj link do listy odtwarzania HLS",
+                "disclaimer": "Pliki do pobrania są pobierane bezpośrednio od dostawcy. P-Stream nie ma kontroli nad sposobem dostarczania plików do pobrania.",
+                "downloadSubtitle": "Pobierz aktualne napisy",
+                "downloadVideo": "Pobierz wideo",
+                "hlsDisclaimer": "Pliki do pobrania są pobierane bezpośrednio od dostawcy. P-Stream nie ma kontroli nad sposobem dostarczania plików do pobrania.<br /><br />Należy pamiętać, że pobierasz playlistę HLS, <bold>nie zaleca się pobierania, jeśli nie jesteś zaznajomiony z zaawansowanymi formatami przesyłania strumieniowego</bold>. Wypróbuj różne źródła dla innych formatów.",
+                "onAndroid": {
+                    "1": "Aby pobrać na Androidzie, kliknij przycisk pobierania, a następnie na nowej stronie <bold>dotknij i przytrzymaj</bold> na filmie, a następnie wybierz <bold>zapisz</bold>.",
+                    "shortTitle": "Pobierz / Android",
+                    "title": "Pobieranie na Androidzie"
+                },
+                "onIos": {
+                    "1": "Aby pobrać na iOS, kliknij przycisk pobierania, a następnie na nowej stronie, kliknij <bold><ios_share /></bold>, a następnie <bold>Zapisz do plików <ios_files /></bold>.",
+                    "shortTitle": "Pobierz / iOS",
+                    "title": "Pobieranie na iOS"
+                },
+                "onPc": {
+                    "1": "Na komputerze, kliknij przycisk pobierania, a następnie na nowej stronie, kliknij wideo prawym przyciskiem myszy i wybierz <bold>Zapisz wideo jako</bold>",
+                    "shortTitle": "Pobierz / Komputer",
+                    "title": "Pobieranie na komputerze"
+                },
+                "title": "Pobierz"
+            },
+            "episodes": {
+                "button": "Odcinki",
+                "emptyState": "Nie ma odcinków w tym sezonie, sprawdź później!",
+                "episodeBadge": "E{{episode}}",
+                "loadingError": "Błąd podczas ładowania sezonu",
+                "loadingList": "Wczytywanie...",
+                "loadingTitle": "Wczytywanie...",
+                "unairedEpisodes": "Jeden lub więcej odcinków tego sezonu zostało wyłączonych, ponieważ nie zostały jeszcze wyemitowane."
+            },
+            "playback": {
+                "speedLabel": "Szybkość odtwarzania",
+                "title": "Ustawienia odtwarzania"
+            },
+            "quality": {
+                "automaticLabel": "Jakość automatyczna",
+                "hint": "Możesz spróbować <0>przełączyć źródło</0> aby uzyskać różne opcje jakości.",
+                "iosNoQuality": "Ze względu na ograniczenia zdefiniowane przez Apple, wybór jakości nie jest dostępny w systemie iOS dla tego źródła. Możesz spróbować <0>przełączyć na inne źródło</0> aby uzyskać inne opcje jakości.",
+                "title": "Jakość"
+            },
+            "settings": {
+                "audioItem": "Dźwięk",
+                "downloadItem": "Pobierz",
+                "enableSubtitles": "Włącz napisy",
+                "experienceSection": "Odtwarzanie",
+                "playbackItem": "Ustawienia odtwarzania",
+                "qualityItem": "Jakość",
+                "sourceItem": "Źródła wideo",
+                "subtitleItem": "Ustawienia napisów",
+                "videoSection": "Ustawienia wideo"
+            },
+            "sources": {
+                "failed": {
+                    "text": "Wystąpił błąd podczas próby znalezienia filmów. Spróbuj użyć innego źródła.",
+                    "title": "Nie udało się zgarnąć"
+                },
+                "noEmbeds": {
+                    "text": "Nie znaleźliśmy żadnych osadzonych plików. Spróbuj użyć innego źródła.",
+                    "title": "Nie znaleziono osadzonych treści"
+                },
+                "noStream": {
+                    "text": "To źródło nie ma strumieni dla tego filmu lub serialu.",
+                    "title": "Brak strumienia"
+                },
+                "title": "Źródła",
+                "unknownOption": "Nieznany"
+            },
+            "subtitles": {
+                "customChoice": "Wrzuć lub prześlij plik",
+                "customizeLabel": "Dostosuj",
+                "dropSubtitleFile": "Przeciągnij i upuść plik z napisami tutaj",
+                "offChoice": "Wyłączone",
+                "settings": {
+                    "backlink": "Własne napisy",
+                    "delay": "Opóźnienie napisów",
+                    "fixCapitals": "Popraw kapitalizację"
+                },
+                "title": "Napisy",
+                "unknownLanguage": "Nieznany"
+            }
+        },
+        "metadata": {
+            "api": {
+                "text": "Nie można załadować metadanych API, sprawdź połączenie internetowe.",
+                "title": "Nie udało się załadować metadanych API"
+            },
+            "dmca": {
+                "badge": "Usunięte",
+                "text": "Ten materiał nie jest już dostępny z powodu żądania usunięcia lub roszczenia dotyczącego praw autorskich.",
+                "title": "Media zostały usunięte"
+            },
+            "extensionPermission": {
+                "badge": "Brak uprawnień",
+                "button": "Użyj rozszerzenia",
+                "text": "Masz nasze rozszerzenie przeglądarki, ale potrzebujemy pozwolenia, aby zacząć z niego korzystać.",
+                "title": "Skonfiguruj rozszerzenie"
+            },
+            "failed": {
+                "badge": "Nie powiodło się",
+                "homeButton": "Wróć na stronę główną",
+                "text": "Nie można załadować metadanych multimediów z TMDB. Sprawdź czy TMDB nie działa lub jest zablokowany na twoim połączeniu internetowym.",
+                "title": "Nie udało się załadować metadanych"
+            },
+            "notFound": {
+                "badge": "Nie znaleziono",
+                "homeButton": "Wróć na stronę główną",
+                "text": "Nie znaleźliśmy żądanych multimediów. Albo został usunięty, albo zmieniłeś adres URL.",
+                "title": "Nie można znaleźć multimediów."
+            }
+        },
+        "nextEpisode": {
+            "next": "Następny odcinek"
+        },
+        "playbackError": {
+            "badge": "Błąd odtwarzania",
+            "errors": {
+                "errorAborted": "Pobieranie multimediów zostało przerwane na żądanie użytkownika.",
+                "errorDecode": "Pomimo wcześniejszego stwierdzenia że zasób multimedialny nadaje się do użytku, wystąpił błąd podczas próby dekodowania zasobu multimedialnego, co spowodowało błąd.",
+                "errorGenericMedia": "Wystąpił nieznany błąd multimediów.",
+                "errorNetwork": "Wystąpił jakiś błąd sieciowy, który uniemożliwił pomyślne pobranie multimediów, mimo że były one wcześniej dostępne.",
+                "errorNotSupported": "Obiekt multimediów lub dostawcy multimediów nie jest obsługiwany."
+            },
+            "homeButton": "Wróć na stronę główną",
+            "text": "Wystąpił błąd podczas próby odtworzenia multimediów. Spróbuj ponownie.",
+            "title": "Nie udało się odtworzyć wideo!"
+        },
+        "scraping": {
+            "items": {
+                "failure": "Wystąpił błąd",
+                "notFound": "Nie ma wideo",
+                "pending": "Sprawdzanie filmów..."
+            },
+            "notFound": {
+                "badge": "Nie znaleziono",
+                "detailsButton": "Pokaż szczegóły",
+                "homeButton": "Wróć na stronę główną",
+                "text": "Przeszukaliśmy naszych dostawców i nie możemy znaleźć poszukiwanych multimediów! Nie przechowujemy multimediów i nie mamy kontroli nad ich dostępnością. Kliknij \"Pokaż szczegóły\" poniżej, aby uzyskać więcej informacji.",
+                "title": "Nie mogliśmy znaleźć tego"
+            }
+        },
+        "time": {
+            "regular": "{{timeWatched}} / {{duration}}",
+            "remaining": "Zostało {{timeLeft}} • Skończ o {{timeFinished, datetime}}",
+            "shortRegular": "{{timeWatched}}",
+            "shortRemaining": "-{{timeLeft}}"
+        },
+        "turnstile": {
+            "description": "Proszę potwierdź że jesteś człowiekiem, wypełniając Captcha po prawej stronie. Ma to zapewnić bezpieczeństwo P-Stream!",
+            "error": "Nie udało się zweryfikować Twojego człowieczeństwa. Proszę spróbuj ponownie.",
+            "title": "Musimy sprawdzić, czy jesteś człowiekiem.",
+            "verifyingHumanity": "Sprawdzasz swoje człowieczeństwo..."
+        }
+    },
+    "screens": {
+        "dmca": {
+            "title": "DMCA"
+        },
+        "loadingApp": "Wczytywanie aplikacji",
+        "loadingUser": "Wczytywanie profilu",
+        "loadingUserError": {
+            "logout": "Wyloguj się",
+            "reset": "Zresetuj serwer niestandardowy",
+            "text": "Nie udało się wczytać profilu",
+            "textWithReset": "Nie udało się wczytać profilu z niestandardowego serwera, chcesz powrócić do domyślnego serwera?"
+        },
+        "migration": {
+            "failed": "Migracja danych nie powiodła się.",
+            "inProgress": "Proszę czekać, przeprowadzamy migrację danych. Nie powinno to zająć dużo czasu."
+        }
+    },
+    "settings": {
+        "account": {
+            "accountDetails": {
+                "deviceNameLabel": "Nazwa urządzenia",
+                "deviceNamePlaceholder": "Telefon osobisty",
+                "editProfile": "Edytuj",
+                "logoutButton": "Wyloguj się"
+            },
+            "actions": {
+                "delete": {
+                    "button": "Usuń konto",
+                    "confirmButton": "Usuń konto",
+                    "confirmDescription": "Na pewno chcesz usunąć swoje konto? Wszystkie twoje dane zostaną stracone!",
+                    "confirmTitle": "Jesteś pewny?",
+                    "text": "Działanie to jest nieodwracalne. Wszystkie dane zostaną usunięte i nie będzie można ich odzyskać.",
+                    "title": "Usuń konto"
+                },
+                "title": "Działania",
+                "logoutAllDevices": {
+                    "title": "Zakończ wszystkie sesje",
+                    "text": "To wyloguje Cię ze wszystkich urządzeń powiązanych z Twoim kontem.",
+                    "button": "Wyloguj się ze wszystkich urządzeń"
+                }
+            },
+            "devices": {
+                "deviceNameLabel": "Nazwa urządzenia",
+                "failed": "Nie udało się załadować sesji",
+                "removeDevice": "Usuń",
+                "title": "Urządzenia"
+            },
+            "profile": {
+                "finish": "Zakończ edycję",
+                "firstColor": "Kolor profilu jeden",
+                "secondColor": "Kolor profilu dwa",
+                "title": "Edytuj zdjęcie profilowe",
+                "userIcon": "Ikona użytkownika"
+            },
+            "register": {
+                "cta": "Rozpocznij",
+                "text": "Udostępnij postępy oglądania między urządzeniami i synchronizuj je.",
+                "title": "Synchronizuj z chmurą"
+            },
+            "title": "Konto"
+        },
+        "appearance": {
+            "activeTheme": "Aktywny",
+            "themes": {
+                "blue": "Niebieski",
+                "default": "Domyślny",
+                "gray": "Szary",
+                "red": "Czerwony",
+                "teal": "Morski"
+            },
+            "title": "Wygląd"
+        },
+        "connections": {
+            "server": {
+                "description": "Jeśli chcesz połączyć się z niestandardowym backendem w celu przechowywania danych, włącz tę opcję i podaj adres URL. <0>Instrukcje.</0>",
+                "label": "Serwer niestandardowy",
+                "urlLabel": "Adres URL niestandardowego serwera"
+            },
+            "setup": {
+                "doSetup": "Konfiguruj",
+                "errorStatus": {
+                    "description": "Wygląda na to, że jeden lub więcej elementów tej konfiguracji wymaga Twojej uwagi.",
+                    "title": "Coś wymaga twojej uwagi"
+                },
+                "itemError": "Coś jest nie tak z tym ustawieniem. Ponownie przejdź przez konfigurację, aby to naprawić.",
+                "items": {
+                    "default": "Domyślna konfiguracja",
+                    "extension": "Rozszerzenie",
+                    "proxy": "Niestandardowy serwer proxy"
+                },
+                "redoSetup": "Ponów konfigurację",
+                "successStatus": {
+                    "description": "Wszystko jest gotowe, abyś mógł zacząć oglądać ulubione media.",
+                    "title": "Wszystko jest gotowe!"
+                },
+                "unsetStatus": {
+                    "description": "Kliknij przycisk po prawej stronie, aby rozpocząć proces konfiguracji.",
+                    "title": "Nie przeszedłeś konfiguracji"
+                }
+            },
+            "title": "Połączenia",
+            "workers": {
+                "addButton": "Dodaj nowego pracownika",
+                "description": "Aby aplikacja działała, cały ruch jest kierowany przez serwery proxy. Włącz tę opcję, jeśli chcesz korzystać z własnych pracowników. <0>Instrukcje.</0>",
+                "emptyState": "Brak pracowników, dodaj jednego poniżej",
+                "label": "Używaj niestandardowych pracowników proxy",
+                "urlLabel": "Adresy URL pracowników",
+                "urlPlaceholder": "https://"
+            }
+        },
+        "preferences": {
+            "language": "Język aplikacji",
+            "languageDescription": "Język zastosowany do całej aplikacji.",
+            "thumbnail": "Generuj miniatury",
+            "thumbnailDescription": "W większości przypadków filmy nie mają miniatur. Możesz włączyć to ustawienie, aby generować je na bieżąco, ale może to spowolnić wideo.",
+            "thumbnailLabel": "Generuj miniatury",
+            "title": "Preferencje"
+        },
+        "reset": "Reset",
+        "save": "Zapisz",
+        "sidebar": {
+            "info": {
+                "appVersion": "Wersja aplikacji",
+                "backendUrl": "Adres URL backendu",
+                "backendVersion": "Wersja backendu",
+                "hostname": "Nazwa hosta",
+                "insecure": "Niebezpieczny",
+                "notLoggedIn": "Nie jesteś zalogowany",
+                "secure": "Bezpieczne",
+                "title": "Informacje o aplikacji",
+                "unknownVersion": "Nieznany",
+                "userId": "Identyfikator użytkownika"
+            }
+        },
+        "subtitles": {
+            "backgroundBlurLabel": "Rozmycie tła",
+            "backgroundLabel": "Krycie tła",
+            "colorLabel": "Kolor",
+            "previewQuote": "Nie wolno mi się bać. Strach zabija myślenie.",
+            "textSizeLabel": "Rozmiar czcionki",
+            "title": "Napisy"
+        },
+        "unsaved": "Masz niezapisane zmiany"
+    },
+    "migration": {
+        "start": {
+            "options": {
+                "download": {
+                    "description": "Ta opcja pozwala na pobranie swoich danych bezpośrednio na urządzenie. Możesz je przenieść na nowy serwer lub zachować na dysku jako kopię zapasową.",
+                    "title": "Pobierz dane",
+                    "action": "Pobierz dane"
+                },
+                "or": "lub",
+                "direct": {
+                    "description": "Ta opcja przeniesie twoje dane bezpośrednio na nowy serwer. <br /><br />To najszybsza możliwa opcja, która pozwoli Ci zachować swoją frazę hasła!",
+                    "title": "Bezpośrednia migracja",
+                    "quality": "Najłatwiejsza i najszybsza",
+                    "action": "Przenieś dane"
+                },
+                "upload": {
+                    "title": "Prześlij dane",
+                    "description": "Prześlij wcześniej eksportowany plik z danymi aby przywrócić swoje zakładki i postęp na tym koncie.",
+                    "quality": "Przywróć z kopii zapasowej",
+                    "action": "Prześlij dane"
+                }
+            },
+            "explainer": "Jeżeli chciałbyś zmigrować swoje dane lub wykonać ich kopię zapasową, wykorzystaj funkcje dostępne poniżej. Pozwolą Ci one przenieść swoje dane na inny serwer.",
+            "title": "Migruj swoje dane"
+        },
+        "direct": {
+            "status": {
+                "error": "Wystąpił błąd podczas migracji twoich danych.",
+                "success": "Twoje dane zostały zmigrowane!"
+            },
+            "title": "Bezpośrednia migracja",
+            "description": "Wprowadź adres URL serwera do którego chcesz przenieść swoje dane. Ta opcja zachowa twoją frazę hasła!",
+            "backendLabel": "URL serwera docelowego",
+            "recaptchaLabel": "Weryfikacja ReCaptcha (opcjonalna)",
+            "toggleLable": "Potrzebujesz ReCaptchy?",
+            "button": {
+                "migrate": "Migruj",
+                "processing": "Przetwarzanie...",
+                "home": "Wróć na stronę główną"
+            }
+        },
+        "loginRequired": "Musisz być zalogowany, aby zmigrować swoje dane! Zaloguj się, aby kontynuować.",
+        "download": {
+            "title": "Pobierz dane"
+        }
+    }
+}
